@@ -124,10 +124,8 @@ function Book() {
       <BackArrow />
       {loading ? loadingContent : null}
       <div className={styles.BookContainer}>{bookContent}</div>
-      </div>
       {book?.delete ? deletedContent : null}
-
-    </div>
+      </div>
   );
 }
 export default Book;
